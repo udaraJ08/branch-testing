@@ -1,0 +1,31 @@
+.d-flex{
+    display: flex;
+}
+
+.fld-clm{
+    flex-direction: column;
+}
+
+.fld-row{
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+button:active{
+    transform: scale(0.9, 0.9);
+}
